@@ -15,20 +15,20 @@
     color: beige;
 }
 
-dt {
+dt,h4 {
     font-style: normal;
     font-weight: 550;
     margin: 20px;
     font-size: 25px;
 }
 
-dd {
+dd, ul li {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 30px;
 }
-dd li{
+dd li,ul li{
     margin-top: 10px;
     margin-left: 60px;
     margin-bottom: 9px;
@@ -77,4 +77,9 @@ dd li{
     font-style: normal;
     font-size: 15px;
     color: beige;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
