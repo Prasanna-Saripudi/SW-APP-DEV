@@ -1,6 +1,6 @@
 #bg_image {
     background-image: url(../assets/virus1.jpg);
-    height: 400px;
+    height: 370px;
     width: auto;
     background-size: cover;
     background-position: center;
@@ -15,20 +15,20 @@
     color: beige;
 }
 
-dt,h4 {
+.container dt, .container h4 {
     font-style: normal;
     font-weight: 550;
     margin: 20px;
     font-size: 25px;
 }
 
-dd, ul li {
+.container dd, .container ul li, .container ol li, .rules li {
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
     margin-left: 30px;
 }
-dd li,ul li{
+.container dd li,.container ul li{
     margin-top: 10px;
     margin-left: 60px;
     margin-bottom: 9px;
@@ -75,11 +75,13 @@ dd li,ul li{
 }
 .nav_item{
     font-style: normal;
-    font-size: 15px;
+    font-size: 18px;
     color: beige;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.dos{
+    background-color: rgb(91, 224, 173);
+}
+.donts{
+    background-color: rgb(240, 153, 112);
 }
