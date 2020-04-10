@@ -1,0 +1,36 @@
+#bg_image {
+    background-image: url(../assets/virus1.JPG);
+    height: 350px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#Topic {
+    font-size: 50px;
+    font-style: normal;
+    /* padding-top: 40px; */
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: beige;
+}
+
+dt {
+    font-style: normal;
+    font-weight: 550;
+    margin: 30px;
+    font-size: 25px;
+}
+
+dd {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+}
+dd li{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 9px;
+}
