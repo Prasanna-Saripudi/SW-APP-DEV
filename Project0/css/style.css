@@ -106,3 +106,9 @@ th{
 .donts{
     background-color: rgb(240, 153, 112);
 }
+
+@media print{
+    .intro, #bg_image {
+        display: none;
+    }
+}
